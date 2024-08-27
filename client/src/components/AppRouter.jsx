@@ -1,18 +1,15 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { Home } from '../pages'
-// import {Register} from '../components'
-import LogIn from './Login'
+import { Todos, Home } from '../pages'
 import { AuthRoute, PrivateRoute } from '../../routes'
-import Auth from '../features/auth/auth'
+import Login from './Login'
 
 const AppRouter = () => {
 	return (
 		<Routes>
 			<Route path="/" element={<Home />} />
-            <Route path="/login" element={<AuthRoute LogIn />} />
-            <Route path="/todos" element={<PrivateRoute Home />} />
-            
+			<Route path="/login" element={<Login />} />
+			<Route path="/todos" element={<Todos />} />
 		</Routes>
 	)
 }

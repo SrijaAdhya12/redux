@@ -1,13 +1,15 @@
 import React from 'react'
-import { AddTodo, Todos } from '../components'
+import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (
-		<div className="mx-48 my-32 flex flex-col justify-center w-1/2">
-			<h1 className="text-3xl font-bold pb-5">Todo App</h1>
-			<AddTodo />
-			<Todos />
-		</div>
+      <div>
+          <h1>Home</h1>
+          <button className='border'>
+          <Link to="/login" >Create Todos</Link>
+          </button>
+      </div>
+      
   )
 }
 
