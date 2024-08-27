@@ -1,13 +1,10 @@
-import AddTodo from './components/AddTodo'
-import Todos from './components/Todos'
+import { AppRouter } from './components'
 
 const App = () => {
 	return (
-		<div className="mx-48 my-32 flex flex-col justify-center w-1/2 ">
-			<h1 className="text-3xl font-bold pb-5">Todo App</h1>
-			<AddTodo />
-			<Todos />
-		</div>
+		<main>
+			<AppRouter />
+		</main>
 	)
 }
 
