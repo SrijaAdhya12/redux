@@ -1,4 +1,4 @@
-    updated on: 05th May 2025, Monday
+    updated on: 24th July 2025, Thursday
 
 <div align=center>
     <a href="https://github.com/SrijaAdhya12/redux">
@@ -121,4 +121,4 @@
 [line]: https://user-images.githubusercontent.com/75939390/137615281-3a875960-92cc-407f-97fe-fd2319bdb252.png
 [License]: https://github.com/SrijaAdhya12/redux/blob/main/LICENSE
 
-<!-- 05/05/25 -->
+<!-- 24/07/25 -->
